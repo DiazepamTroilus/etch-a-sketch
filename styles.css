@@ -10,21 +10,27 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
+
   /* flex-wrap: wrap;
   width: 900px; */
 }
 .grid-item {
   flex: 1;
-  background-color: red;
-  margin: 2px;
-  width: 40px;
-
+  background-color: white;
+  margin: 0.5px;
+  height: 14px;
   aspect-ratio: 1/1;
 }
 .grid-row {
   display: flex;
   flex-direction: column;
+  max-height: 960px;
 }
-.grid-item:hover {
+.darken {
   background-color: black;
+}
+#btn {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
 }
