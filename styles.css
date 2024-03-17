@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(80, 80, 80);
+}
+.grid {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  /* flex-wrap: wrap;
+  width: 900px; */
+}
+.grid-item {
+  flex: 1;
+  background-color: red;
+  margin: 2px;
+  width: 40px;
+
+  aspect-ratio: 1/1;
+}
+.grid-row {
+  display: flex;
+  flex-direction: column;
+}
+.grid-item:hover {
+  background-color: black;
+}
